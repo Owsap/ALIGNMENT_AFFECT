@@ -1,0 +1,17 @@
+/// 1.
+// Add to the bottom of the document above #pragma pack(pop)
+#if defined(__ALIGNMENT_AFFECT__)
+enum EAlignmentAffect
+{
+	ALIGNMENT_LEVEL1 = 12000,
+	ALIGNMENT_LEVEL2 = 8000,
+	ALIGNMENT_LEVEL3 = 4000,
+	ALIGNMENT_LEVEL4 = 1000,
+	ALIGNMENT_LEVEL5 = 0,
+	ALIGNMENT_LEVEL6 = -4000,
+	ALIGNMENT_LEVEL7 = -8000,
+	ALIGNMENT_LEVEL8 = -12000,
+
+	MAX_ALIGNMENT_LEVEL = 4,
+};
+#endif

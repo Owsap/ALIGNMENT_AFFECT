@@ -1,0 +1,1 @@
+TOOLTIP_AFFECT_ALIGNMENT	Alignment Bonus\nMax. HP: +%d	SA
