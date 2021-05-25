@@ -14,3 +14,13 @@
 				continue;
 			}
 #endif
+
+
+
+/// 2.
+// Search
+	if (afOld != m_afAffectFlag || lMovSpd != GetPoint(POINT_MOV_SPEED) || lAttSpd != GetPoint(POINT_ATT_SPEED))
+// Add above
+#if defined(__ALIGNMENT_AFFECT__)
+	AlignmentBonus();
+#endif
