@@ -54,18 +54,3 @@ void CHARACTER::AlignmentBonus()
 	RemoveAffect(AFFECT_ALIGNMENT);
 }
 #endif
-
-/// 3.
-// Search @ void CHARACTER::UpdateAlignment
-	if (bShow)
-	{
-		m_iAlignment = m_iRealAlignment;
-
-		if (i != m_iAlignment / 10)
-			UpdatePacket();
-	}
-
-// Add below
-#if defined(__ALIGNMENT_AFFECT__)
-	AlignmentBonus();
-#endif
